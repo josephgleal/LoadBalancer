@@ -14,20 +14,21 @@ int main(){
    
    // Seed the random number generator.
     srand(seed);
-    // request *r = new request();
-    // cout<<r->getIP()<<endl;
+    
 
     int serverNumber = 0;
     cout<<"server number?"<<endl;
     cin >> serverNumber;
-    int requestNumber = 100000;
-    // webServer s;
+
+    unsigned int maxCycles = 0;
+    cout<<"max number of clock cycles?"<<endl;
+    cin >> maxCycles;
+
+    // int requestNumber = 10000;
+    int requestNumber = serverNumber * 2;
+    
     loadBalancer l;
-    //not proper use of serverNumber
-    // for(int i = 0; i < requestNumber; i++){
-    //     l.addRequest();
-    // }
-    // l.printRequests();
+    
     l.startup(requestNumber,serverNumber);
-    l.run();
+    l.run(maxCycles);
 }

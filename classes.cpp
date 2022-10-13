@@ -8,6 +8,7 @@ request::request(/* args */)
 {
     ip = generateIP();
     time = generateTime();
+    outIP = generateIP();
 }
 
 request::~request()
@@ -16,7 +17,7 @@ request::~request()
 
 
 int request::generateTime(){
-    int time = rand() % 10 + 1;
+    int time = rand() % 500 + 1;
     // int time = 1;
     return time;
 }
@@ -34,8 +35,13 @@ string request::generateIP(){
     return first + "." + second + "." + third + "." + fourth;
 }
 
+
 string request::getIP(){
     return this->ip;
+}
+
+string request::getOutIP(){
+    return this->outIP;
 }
 
 int request::getTime(){
@@ -80,6 +86,7 @@ void webServer::decrementTime(){
 //constructor for loadBalancer
 loadBalancer::loadBalancer(/* args */)
 {
+    processesRunning = false;
 }
 
 loadBalancer::~loadBalancer()
@@ -106,7 +113,8 @@ void loadBalancer::startup(int r, int s){
 }
 void loadBalancer::simulator(){
     int random = rand() % 100;
-    if(random > 70){
+    //19% chance of a new request each clock cycle
+    if(random > 95 && requestqueue.size() > 0){
         requestqueue.push(request());
         cout<<"request added"<<endl;
     }
@@ -137,9 +145,19 @@ void loadBalancer::printRequests(){
         }
 }
 
-void loadBalancer::run(){
+void loadBalancer::run(unsigned int n){
     unsigned int clock = 0;
-    while(!requestqueue.empty()){
+    int activeServers = 0;
+    bool processAssigned = false;
+    int longestBusyPeriod = 0;
+    int reportPeriod = 0;
+    //while the request queue has requests, or there are servers processing requests
+    while(!requestqueue.empty() || activeServers > 0){
+        if(clock >= n){
+            break;
+        }
+        activeServers = 0;
+        processAssigned = false;
         for(int i = 0; i < servers.size(); i++){
 
             //this block prevents a bufferoverflow error caused by assigning pieces of memory that should not
@@ -148,21 +166,42 @@ void loadBalancer::run(){
             if(requestqueue.size() < 1){
                 break;
             }
-            //if server is not busy
+            
+            //if server is not busy, assign it a process
             if (!servers.at(i).busy){
                 servers.at(i).setTime(requestqueue.front().getTime());
-                cout<<"request "<<requestqueue.front().getIP()<<" assigned"<<endl;
+                cout<<"request "<<requestqueue.front().getIP()<<" assigned to " << requestqueue.front().getOutIP()<<endl;
                 requestqueue.pop();
+                processAssigned = true;
+                longestBusyPeriod = 0;
             }
             //if server is busy then decrement the time it has left
             else{
                 servers.at(i).decrementTime();
+                activeServers++;
                 }
+            
+            
         }
+        if(processAssigned == false){
+                longestBusyPeriod++;
+            }
+        if(reportPeriod < longestBusyPeriod){
+            reportPeriod = longestBusyPeriod;
+        }
+        
         cout<<"requestqueue size "<< requestqueue.size()<<endl;
         simulator();
         clock++;
     }
-    cout<<"queue empty"<<endl;
-    cout<<"clock cycles "<< clock<<endl;
+    if(requestqueue.size() == 0){
+        cout<<"queue empty"<<endl;
+        cout<<"clock cycles "<< clock<<endl;
+        cout<<"longest busy period" << reportPeriod <<endl;
+    }
+    else if(clock >= n){
+        cout << "max clock cycles reached at " << n << endl;
+        cout<<"longest busy period" << reportPeriod << endl;
+    }
+    
 }

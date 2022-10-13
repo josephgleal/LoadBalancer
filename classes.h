@@ -14,6 +14,7 @@ private:
     /* data */
     int time;
     string ip;
+    string outIP;
 public:
     request(/* args */);
     ~request();
@@ -21,6 +22,7 @@ public:
     string generateIP();
 
     string getIP();
+    string getOutIP();
     int getTime();
 };
 
@@ -57,7 +59,8 @@ public:
     void startup(int r, int s);
     void printServers();
     void printRequests();
-    void run();
+    void run(unsigned int n);
+    bool processesRunning;
     
 };
 
