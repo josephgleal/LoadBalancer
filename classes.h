@@ -4,6 +4,7 @@
 #include <string>
 #include <random>
 #include <vector>
+#include <iostream>
 using namespace std;
 
 
@@ -20,6 +21,7 @@ public:
     string generateIP();
 
     string getIP();
+    int getTime();
 };
 
 class webServer
@@ -30,6 +32,13 @@ private:
 public:
     webServer();
     ~webServer();
+    void printRequests();
+    void addRequest();
+    void popRequest();
+    bool busy;
+    unsigned int timeLeft;
+    void setTime(unsigned int n);
+    void decrementTime();
 };
 
 class loadBalancer
@@ -40,11 +49,16 @@ private:
 public:
     loadBalancer(/* args */);
     ~loadBalancer();
-    void addServer(webServer s);
-    void removeServer(webServer s);
+    void addServer();
+    void removeServer();
     void simulator();
     void addRequest();
     void popRequest();
+    void startup(int r, int s);
+    void printServers();
+    void printRequests();
+    void run();
+    
 };
 
 
