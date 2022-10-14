@@ -240,14 +240,15 @@ void loadBalancer::run(unsigned int n){
         simulator();
         clock++;
     }
+    cout<<endl;
     if(requestqueue.size() == 0){
         cout<<"queue empty"<<endl;
         cout<<"clock cycles "<< clock<<endl;
-        cout<<"longest busy period" << reportPeriod <<endl;
+        cout<<"longest busy period (all servers are busy): " << reportPeriod <<endl;
     }
     else if(clock >= n){
         cout << "max clock cycles reached at " << n << endl;
-        cout<<"longest busy period" << reportPeriod << endl;
+        cout<<"longest busy period (all servers are busy): " << reportPeriod << endl;
     }
     
 }
