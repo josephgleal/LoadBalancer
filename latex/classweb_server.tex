@@ -1,0 +1,63 @@
+\hypertarget{classweb_server}{}\doxysection{web\+Server Class Reference}
+\label{classweb_server}\index{webServer@{webServer}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classweb_server_a2c770daf0997221690a171b6facecca3}{web\+Server}} ()
+\item 
+void \mbox{\hyperlink{classweb_server_affff4aff04b9a81e38d555fdf948118d}{set\+Time}} (unsigned int n)
+\item 
+void \mbox{\hyperlink{classweb_server_a196f740b9ed69855a78306d037995473}{decrement\+Time}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{classweb_server_a8954f52ded21f2c5c4cea972a2631d69}{busy}}
+\item 
+unsigned int \mbox{\hyperlink{classweb_server_a308a089918c82906df21ab74ac7e32ab}{time\+Left}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classweb_server_a2c770daf0997221690a171b6facecca3}\label{classweb_server_a2c770daf0997221690a171b6facecca3}} 
+\index{webServer@{webServer}!webServer@{webServer}}
+\index{webServer@{webServer}!webServer@{webServer}}
+\doxysubsubsection{\texorpdfstring{webServer()}{webServer()}}
+{\footnotesize\ttfamily web\+Server\+::web\+Server (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\hyperlink{classweb_server}{web\+Server}} constructor. creates a \mbox{\hyperlink{classweb_server}{web\+Server}} that has a boolean set to false, and a int counter that is used to keep track of the time left to finish processing the server\textquotesingle{}s current request 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classweb_server_a196f740b9ed69855a78306d037995473}\label{classweb_server_a196f740b9ed69855a78306d037995473}} 
+\index{webServer@{webServer}!decrementTime@{decrementTime}}
+\index{decrementTime@{decrementTime}!webServer@{webServer}}
+\doxysubsubsection{\texorpdfstring{decrementTime()}{decrementTime()}}
+{\footnotesize\ttfamily void web\+Server\+::decrement\+Time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+decreases the time remaining before the sever is available to process another task. \mbox{\Hypertarget{classweb_server_affff4aff04b9a81e38d555fdf948118d}\label{classweb_server_affff4aff04b9a81e38d555fdf948118d}} 
+\index{webServer@{webServer}!setTime@{setTime}}
+\index{setTime@{setTime}!webServer@{webServer}}
+\doxysubsubsection{\texorpdfstring{setTime()}{setTime()}}
+{\footnotesize\ttfamily void web\+Server\+::set\+Time (\begin{DoxyParamCaption}\item[{unsigned int}]{n }\end{DoxyParamCaption})}
+
+assigns a process to the server and sets it\textquotesingle{}s status to busy. 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classweb_server_a8954f52ded21f2c5c4cea972a2631d69}\label{classweb_server_a8954f52ded21f2c5c4cea972a2631d69}} 
+\index{webServer@{webServer}!busy@{busy}}
+\index{busy@{busy}!webServer@{webServer}}
+\doxysubsubsection{\texorpdfstring{busy}{busy}}
+{\footnotesize\ttfamily bool web\+Server\+::busy}
+
+True if the server has a process assigned to it. False otherwise. \mbox{\Hypertarget{classweb_server_a308a089918c82906df21ab74ac7e32ab}\label{classweb_server_a308a089918c82906df21ab74ac7e32ab}} 
+\index{webServer@{webServer}!timeLeft@{timeLeft}}
+\index{timeLeft@{timeLeft}!webServer@{webServer}}
+\doxysubsubsection{\texorpdfstring{timeLeft}{timeLeft}}
+{\footnotesize\ttfamily unsigned int web\+Server\+::time\+Left}
+
+Keeps track of the time left before the server finished processing the request. Once it reaches 0 then \char`\"{}busy\char`\"{} will be set to false. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+classes.\+h\item 
+classes.\+cpp\end{DoxyCompactItemize}

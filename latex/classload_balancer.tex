@@ -1,0 +1,95 @@
+\hypertarget{classload_balancer}{}\doxysection{load\+Balancer Class Reference}
+\label{classload_balancer}\index{loadBalancer@{loadBalancer}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classload_balancer_a4bc9a66b3626e70249f82229882afbee}{load\+Balancer}} ()
+\item 
+void \mbox{\hyperlink{classload_balancer_a8bef436e97084b308cb6184b7ce36e4f}{add\+Server}} ()
+\item 
+void \mbox{\hyperlink{classload_balancer_a9fe49f3071383a569e16ba5fbb112741}{simulator}} ()
+\item 
+void \mbox{\hyperlink{classload_balancer_a4aa25bc6afcacd0fc97a29fc58dfa7ac}{add\+Request}} ()
+\item 
+void \mbox{\hyperlink{classload_balancer_a0fa600dabcb6899f2862d65a83d0b6ae}{pop\+Request}} ()
+\item 
+void \mbox{\hyperlink{classload_balancer_ada7ca2e9f99dbd77f1344be5e02c3230}{startup}} (int r, int s)
+\item 
+void \mbox{\hyperlink{classload_balancer_a2749062784582e096d4c2bad002d0d5b}{print\+Requests}} ()
+\item 
+void \mbox{\hyperlink{classload_balancer_af4cc09caf9276dbfb90d9b4d4ac00e0b}{run}} (unsigned int n)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{classload_balancer_add8f6d7a39a0401f1f4fa6ba572a1663}{processes\+Running}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classload_balancer_a4bc9a66b3626e70249f82229882afbee}\label{classload_balancer_a4bc9a66b3626e70249f82229882afbee}} 
+\index{loadBalancer@{loadBalancer}!loadBalancer@{loadBalancer}}
+\index{loadBalancer@{loadBalancer}!loadBalancer@{loadBalancer}}
+\doxysubsubsection{\texorpdfstring{loadBalancer()}{loadBalancer()}}
+{\footnotesize\ttfamily load\+Balancer\+::load\+Balancer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+constructor for \mbox{\hyperlink{classload_balancer}{load\+Balancer}}. A private boolean to determine if there are any processes running is set to false upon instantiation. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classload_balancer_a4aa25bc6afcacd0fc97a29fc58dfa7ac}\label{classload_balancer_a4aa25bc6afcacd0fc97a29fc58dfa7ac}} 
+\index{loadBalancer@{loadBalancer}!addRequest@{addRequest}}
+\index{addRequest@{addRequest}!loadBalancer@{loadBalancer}}
+\doxysubsubsection{\texorpdfstring{addRequest()}{addRequest()}}
+{\footnotesize\ttfamily void load\+Balancer\+::add\+Request (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+creates a new request and adds it to the loadbalancer\textquotesingle{}s request queue \mbox{\Hypertarget{classload_balancer_a8bef436e97084b308cb6184b7ce36e4f}\label{classload_balancer_a8bef436e97084b308cb6184b7ce36e4f}} 
+\index{loadBalancer@{loadBalancer}!addServer@{addServer}}
+\index{addServer@{addServer}!loadBalancer@{loadBalancer}}
+\doxysubsubsection{\texorpdfstring{addServer()}{addServer()}}
+{\footnotesize\ttfamily void load\+Balancer\+::add\+Server (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+creates a server and adds it to the server list. \mbox{\Hypertarget{classload_balancer_a0fa600dabcb6899f2862d65a83d0b6ae}\label{classload_balancer_a0fa600dabcb6899f2862d65a83d0b6ae}} 
+\index{loadBalancer@{loadBalancer}!popRequest@{popRequest}}
+\index{popRequest@{popRequest}!loadBalancer@{loadBalancer}}
+\doxysubsubsection{\texorpdfstring{popRequest()}{popRequest()}}
+{\footnotesize\ttfamily void load\+Balancer\+::pop\+Request (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+removes the front request from the request queue \mbox{\Hypertarget{classload_balancer_a2749062784582e096d4c2bad002d0d5b}\label{classload_balancer_a2749062784582e096d4c2bad002d0d5b}} 
+\index{loadBalancer@{loadBalancer}!printRequests@{printRequests}}
+\index{printRequests@{printRequests}!loadBalancer@{loadBalancer}}
+\doxysubsubsection{\texorpdfstring{printRequests()}{printRequests()}}
+{\footnotesize\ttfamily void load\+Balancer\+::print\+Requests (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+prints the list of requests in the request queue \mbox{\Hypertarget{classload_balancer_af4cc09caf9276dbfb90d9b4d4ac00e0b}\label{classload_balancer_af4cc09caf9276dbfb90d9b4d4ac00e0b}} 
+\index{loadBalancer@{loadBalancer}!run@{run}}
+\index{run@{run}!loadBalancer@{loadBalancer}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily void load\+Balancer\+::run (\begin{DoxyParamCaption}\item[{unsigned int}]{n }\end{DoxyParamCaption})}
+
+runs the load balancer. Checks if any severs are avaible to process a request from the request queue. Accepts new requests. Prints output \mbox{\Hypertarget{classload_balancer_a9fe49f3071383a569e16ba5fbb112741}\label{classload_balancer_a9fe49f3071383a569e16ba5fbb112741}} 
+\index{loadBalancer@{loadBalancer}!simulator@{simulator}}
+\index{simulator@{simulator}!loadBalancer@{loadBalancer}}
+\doxysubsubsection{\texorpdfstring{simulator()}{simulator()}}
+{\footnotesize\ttfamily void load\+Balancer\+::simulator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Randomly generates a new request to place in the request queue \mbox{\Hypertarget{classload_balancer_ada7ca2e9f99dbd77f1344be5e02c3230}\label{classload_balancer_ada7ca2e9f99dbd77f1344be5e02c3230}} 
+\index{loadBalancer@{loadBalancer}!startup@{startup}}
+\index{startup@{startup}!loadBalancer@{loadBalancer}}
+\doxysubsubsection{\texorpdfstring{startup()}{startup()}}
+{\footnotesize\ttfamily void load\+Balancer\+::startup (\begin{DoxyParamCaption}\item[{int}]{r,  }\item[{int}]{s }\end{DoxyParamCaption})}
+
+instanciates the request queue and server list based on the size of respective parameters r and s 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classload_balancer_add8f6d7a39a0401f1f4fa6ba572a1663}\label{classload_balancer_add8f6d7a39a0401f1f4fa6ba572a1663}} 
+\index{loadBalancer@{loadBalancer}!processesRunning@{processesRunning}}
+\index{processesRunning@{processesRunning}!loadBalancer@{loadBalancer}}
+\doxysubsubsection{\texorpdfstring{processesRunning}{processesRunning}}
+{\footnotesize\ttfamily bool load\+Balancer\+::processes\+Running}
+
+True if there are any processes running. False if no servers have processes assigned to them used to ensure that all processes finish running after the request queue is empty. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+classes.\+h\item 
+classes.\+cpp\end{DoxyCompactItemize}

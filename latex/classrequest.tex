@@ -1,0 +1,72 @@
+\hypertarget{classrequest}{}\doxysection{request Class Reference}
+\label{classrequest}\index{request@{request}}
+
+
+{\ttfamily \#include $<$classes.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classrequest_ae49e0b00a54017889a18e955b88087f6}{request}} ()
+\item 
+int \mbox{\hyperlink{classrequest_abb079773915d65c1a4bd20a72e41647d}{generate\+Time}} ()
+\item 
+string \mbox{\hyperlink{classrequest_a1b7bb3117967377d07c101d55aebf967}{generate\+IP}} ()
+\item 
+string \mbox{\hyperlink{classrequest_a16de0ed3fc1090a08e66677d6612c3ab}{get\+IP}} ()
+\item 
+string \mbox{\hyperlink{classrequest_a6665c9d39f8b6cb5061c93d4c877159e}{get\+Out\+IP}} ()
+\item 
+int \mbox{\hyperlink{classrequest_a801bccfa0e862fc0e5c8cf520d976b21}{get\+Time}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A request. More detailed request description. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classrequest_ae49e0b00a54017889a18e955b88087f6}\label{classrequest_ae49e0b00a54017889a18e955b88087f6}} 
+\index{request@{request}!request@{request}}
+\index{request@{request}!request@{request}}
+\doxysubsubsection{\texorpdfstring{request()}{request()}}
+{\footnotesize\ttfamily request\+::request (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+request constructor. creates a request with an in\+IP, out\+IP and time. The time is the number of clock cycles that the request will take to process. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classrequest_a1b7bb3117967377d07c101d55aebf967}\label{classrequest_a1b7bb3117967377d07c101d55aebf967}} 
+\index{request@{request}!generateIP@{generateIP}}
+\index{generateIP@{generateIP}!request@{request}}
+\doxysubsubsection{\texorpdfstring{generateIP()}{generateIP()}}
+{\footnotesize\ttfamily string request\+::generate\+IP (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Randomly generates an IP address. Used to generate the inbound and outbound IP addresses. \mbox{\Hypertarget{classrequest_abb079773915d65c1a4bd20a72e41647d}\label{classrequest_abb079773915d65c1a4bd20a72e41647d}} 
+\index{request@{request}!generateTime@{generateTime}}
+\index{generateTime@{generateTime}!request@{request}}
+\doxysubsubsection{\texorpdfstring{generateTime()}{generateTime()}}
+{\footnotesize\ttfamily int request\+::generate\+Time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Randomly generates the number of clock cycles that it will take to complete the request. The time will be between 1 and 500 \mbox{\Hypertarget{classrequest_a16de0ed3fc1090a08e66677d6612c3ab}\label{classrequest_a16de0ed3fc1090a08e66677d6612c3ab}} 
+\index{request@{request}!getIP@{getIP}}
+\index{getIP@{getIP}!request@{request}}
+\doxysubsubsection{\texorpdfstring{getIP()}{getIP()}}
+{\footnotesize\ttfamily string request\+::get\+IP (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+retrieves the inbound IP address. \mbox{\Hypertarget{classrequest_a6665c9d39f8b6cb5061c93d4c877159e}\label{classrequest_a6665c9d39f8b6cb5061c93d4c877159e}} 
+\index{request@{request}!getOutIP@{getOutIP}}
+\index{getOutIP@{getOutIP}!request@{request}}
+\doxysubsubsection{\texorpdfstring{getOutIP()}{getOutIP()}}
+{\footnotesize\ttfamily string request\+::get\+Out\+IP (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+retrieves the outbound IP address. \mbox{\Hypertarget{classrequest_a801bccfa0e862fc0e5c8cf520d976b21}\label{classrequest_a801bccfa0e862fc0e5c8cf520d976b21}} 
+\index{request@{request}!getTime@{getTime}}
+\index{getTime@{getTime}!request@{request}}
+\doxysubsubsection{\texorpdfstring{getTime()}{getTime()}}
+{\footnotesize\ttfamily int request\+::get\+Time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+retrieves the time to process the request. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+classes.\+h\item 
+classes.\+cpp\end{DoxyCompactItemize}

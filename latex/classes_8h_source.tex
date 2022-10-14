@@ -1,0 +1,104 @@
+\hypertarget{classes_8h_source}{}\doxysection{classes.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef CLASSES\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define CLASSES\_H}}
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include <queue>}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <random>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{8 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{9 }
+\DoxyCodeLine{14 \textcolor{keyword}{class }\mbox{\hyperlink{classrequest}{request}}}
+\DoxyCodeLine{15 \{}
+\DoxyCodeLine{16 \textcolor{keyword}{private}:}
+\DoxyCodeLine{17     \textcolor{comment}{/* data */}}
+\DoxyCodeLine{18     \textcolor{keywordtype}{int} time;}
+\DoxyCodeLine{19     \textcolor{keywordtype}{string} ip;}
+\DoxyCodeLine{20     \textcolor{keywordtype}{string} outIP;}
+\DoxyCodeLine{21 \textcolor{keyword}{public}:}
+\DoxyCodeLine{22     \mbox{\hyperlink{classrequest_ae49e0b00a54017889a18e955b88087f6}{request}}(\textcolor{comment}{/* args */});}
+\DoxyCodeLine{23     \mbox{\hyperlink{classrequest}{\string~request}}();}
+\DoxyCodeLine{24     \textcolor{keywordtype}{int} \mbox{\hyperlink{classrequest_abb079773915d65c1a4bd20a72e41647d}{generateTime}}();}
+\DoxyCodeLine{25     \textcolor{keywordtype}{string} \mbox{\hyperlink{classrequest_a1b7bb3117967377d07c101d55aebf967}{generateIP}}();}
+\DoxyCodeLine{26 }
+\DoxyCodeLine{27     \textcolor{keywordtype}{string} \mbox{\hyperlink{classrequest_a16de0ed3fc1090a08e66677d6612c3ab}{getIP}}();}
+\DoxyCodeLine{28     \textcolor{keywordtype}{string} \mbox{\hyperlink{classrequest_a6665c9d39f8b6cb5061c93d4c877159e}{getOutIP}}();}
+\DoxyCodeLine{29     \textcolor{keywordtype}{int} \mbox{\hyperlink{classrequest_a801bccfa0e862fc0e5c8cf520d976b21}{getTime}}();}
+\DoxyCodeLine{30 \};}
+\DoxyCodeLine{31 }
+\DoxyCodeLine{32 \textcolor{keyword}{class }\mbox{\hyperlink{classweb_server}{webServer}}}
+\DoxyCodeLine{33 \{}
+\DoxyCodeLine{34 \textcolor{keyword}{private}:}
+\DoxyCodeLine{35     \textcolor{comment}{/* data */}}
+\DoxyCodeLine{36 \textcolor{keyword}{public}:}
+\DoxyCodeLine{37     \mbox{\hyperlink{classweb_server_a2c770daf0997221690a171b6facecca3}{webServer}}();}
+\DoxyCodeLine{38     \mbox{\hyperlink{classweb_server}{\string~webServer}}();}
+\DoxyCodeLine{39 }
+\DoxyCodeLine{43     \textcolor{keywordtype}{bool} \mbox{\hyperlink{classweb_server_a8954f52ded21f2c5c4cea972a2631d69}{busy}};}
+\DoxyCodeLine{48     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} \mbox{\hyperlink{classweb_server_a308a089918c82906df21ab74ac7e32ab}{timeLeft}};}
+\DoxyCodeLine{49     \textcolor{keywordtype}{void} \mbox{\hyperlink{classweb_server_affff4aff04b9a81e38d555fdf948118d}{setTime}}(\textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} n);}
+\DoxyCodeLine{50     \textcolor{keywordtype}{void} \mbox{\hyperlink{classweb_server_a196f740b9ed69855a78306d037995473}{decrementTime}}();}
+\DoxyCodeLine{51 \};}
+\DoxyCodeLine{52 }
+\DoxyCodeLine{53 \textcolor{keyword}{class }\mbox{\hyperlink{classload_balancer}{loadBalancer}}}
+\DoxyCodeLine{54 \{}
+\DoxyCodeLine{55 \textcolor{keyword}{private}:}
+\DoxyCodeLine{56     vector<webServer> servers;}
+\DoxyCodeLine{57     queue<request> requestqueue;}
+\DoxyCodeLine{58 \textcolor{keyword}{public}:}
+\DoxyCodeLine{59     \mbox{\hyperlink{classload_balancer_a4bc9a66b3626e70249f82229882afbee}{loadBalancer}}(\textcolor{comment}{/* args */});}
+\DoxyCodeLine{60     \mbox{\hyperlink{classload_balancer}{\string~loadBalancer}}();}
+\DoxyCodeLine{61     \textcolor{keywordtype}{void} \mbox{\hyperlink{classload_balancer_a8bef436e97084b308cb6184b7ce36e4f}{addServer}}();}
+\DoxyCodeLine{62     \textcolor{comment}{// void removeServer();}}
+\DoxyCodeLine{63     \textcolor{keywordtype}{void} \mbox{\hyperlink{classload_balancer_a9fe49f3071383a569e16ba5fbb112741}{simulator}}();}
+\DoxyCodeLine{64     \textcolor{keywordtype}{void} \mbox{\hyperlink{classload_balancer_a4aa25bc6afcacd0fc97a29fc58dfa7ac}{addRequest}}();}
+\DoxyCodeLine{65     \textcolor{keywordtype}{void} \mbox{\hyperlink{classload_balancer_a0fa600dabcb6899f2862d65a83d0b6ae}{popRequest}}();}
+\DoxyCodeLine{66     \textcolor{keywordtype}{void} \mbox{\hyperlink{classload_balancer_ada7ca2e9f99dbd77f1344be5e02c3230}{startup}}(\textcolor{keywordtype}{int} r, \textcolor{keywordtype}{int} s);}
+\DoxyCodeLine{67     \textcolor{comment}{// void printServers();}}
+\DoxyCodeLine{68     \textcolor{keywordtype}{void} \mbox{\hyperlink{classload_balancer_a2749062784582e096d4c2bad002d0d5b}{printRequests}}();}
+\DoxyCodeLine{69     \textcolor{keywordtype}{void} \mbox{\hyperlink{classload_balancer_af4cc09caf9276dbfb90d9b4d4ac00e0b}{run}}(\textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} n);}
+\DoxyCodeLine{70 }
+\DoxyCodeLine{74     \textcolor{keywordtype}{bool} \mbox{\hyperlink{classload_balancer_add8f6d7a39a0401f1f4fa6ba572a1663}{processesRunning}}; }
+\DoxyCodeLine{75     }
+\DoxyCodeLine{76 \};}
+\DoxyCodeLine{77 }
+\DoxyCodeLine{78 }
+\DoxyCodeLine{79 }
+\DoxyCodeLine{80 }
+\DoxyCodeLine{81 }
+\DoxyCodeLine{82 }
+\DoxyCodeLine{83 }
+\DoxyCodeLine{84 }
+\DoxyCodeLine{85 }
+\DoxyCodeLine{86 }
+\DoxyCodeLine{87 }
+\DoxyCodeLine{88 }
+\DoxyCodeLine{89 }
+\DoxyCodeLine{90 \textcolor{comment}{// class request\{}}
+\DoxyCodeLine{91 \textcolor{comment}{//     public:}}
+\DoxyCodeLine{92 \textcolor{comment}{//         int time = generateTime();}}
+\DoxyCodeLine{93 \textcolor{comment}{//         string ip = generateIP();}}
+\DoxyCodeLine{94 }
+\DoxyCodeLine{95 \textcolor{comment}{//         string generateIP()\{}}
+\DoxyCodeLine{96 \textcolor{comment}{//             int random = rand() \% 100 + 155;}}
+\DoxyCodeLine{97 \textcolor{comment}{//             string first = to\_string(random);}}
+\DoxyCodeLine{98 \textcolor{comment}{//             random = rand() \% 100 + 155;}}
+\DoxyCodeLine{99 \textcolor{comment}{//             string second = to\_string(random);}}
+\DoxyCodeLine{100 \textcolor{comment}{//             random = rand() \% 100 + 155;}}
+\DoxyCodeLine{101 \textcolor{comment}{//             string third = to\_string(random);}}
+\DoxyCodeLine{102 \textcolor{comment}{//             random = rand() \% 100 + 155;}}
+\DoxyCodeLine{103 \textcolor{comment}{//             string fourth = to\_string(random);}}
+\DoxyCodeLine{104 }
+\DoxyCodeLine{105 \textcolor{comment}{//             return first + "{}."{} + second + "{}."{} + third + "{}."{} + fourth;}}
+\DoxyCodeLine{106 \textcolor{comment}{//         \}}}
+\DoxyCodeLine{107 \textcolor{comment}{//         int generateTime()\{}}
+\DoxyCodeLine{108 \textcolor{comment}{//             int time = rand() \% 10 + 1;}}
+\DoxyCodeLine{109 \textcolor{comment}{//             return time;}}
+\DoxyCodeLine{110 \textcolor{comment}{//         \}}}
+\DoxyCodeLine{111 \textcolor{comment}{// \};}}
+\DoxyCodeLine{112 }
+\DoxyCodeLine{113 \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

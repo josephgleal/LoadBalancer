@@ -7,7 +7,10 @@
 #include <iostream>
 using namespace std;
 
-
+    /** 
+     * A request.
+     * More detailed request description.
+     */
 class request
 {
 private:
@@ -30,14 +33,18 @@ class webServer
 {
 private:
     /* data */
-    queue<request> requestqueue;
 public:
     webServer();
     ~webServer();
-    void printRequests();
-    void addRequest();
-    void popRequest();
+
+    /**
+    * True if the server has a process assigned to it. False otherwise.
+    */
     bool busy;
+    /**
+    * Keeps track of the time left before the server finished processing the request. Once it reaches 0 then 
+    * "busy" will be set to false.
+    */
     unsigned int timeLeft;
     void setTime(unsigned int n);
     void decrementTime();
@@ -52,15 +59,19 @@ public:
     loadBalancer(/* args */);
     ~loadBalancer();
     void addServer();
-    void removeServer();
+    // void removeServer();
     void simulator();
     void addRequest();
     void popRequest();
     void startup(int r, int s);
-    void printServers();
+    // void printServers();
     void printRequests();
     void run(unsigned int n);
-    bool processesRunning;
+
+    /** True if there are any processes running. False if no servers have processes assigned to them.
+     * Used to ensure that all processes finish running after the request queue is empty.
+    */
+    bool processesRunning; 
     
 };
 

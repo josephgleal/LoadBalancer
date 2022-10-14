@@ -3,7 +3,11 @@
 using namespace std;
 
 
-
+/**
+ * request constructor.
+ * creates a request with an inIP, outIP and time. The time is the number
+ * of clock cycles that the request will take to process.
+ */
 request::request(/* args */)
 {
     ip = generateIP();
@@ -15,13 +19,19 @@ request::~request()
 {
 }
 
-
+/**
+ * Randomly generates the number of clock cycles that it will take to complete the request. The time will be
+ * between 1 and 500
+ */
 int request::generateTime(){
     int time = rand() % 500 + 1;
     // int time = 1;
     return time;
 }
 
+/**
+ * Randomly generates an IP address. Used to generate the inbound and outbound IP addresses.
+ */
 string request::generateIP(){
     int random = rand() % 100 + 155;
     string first = to_string(random);
@@ -35,21 +45,33 @@ string request::generateIP(){
     return first + "." + second + "." + third + "." + fourth;
 }
 
-
+/**
+ * retrieves the inbound IP address.
+ */
 string request::getIP(){
     return this->ip;
 }
 
+/**
+ * retrieves the outbound IP address.
+ */
 string request::getOutIP(){
     return this->outIP;
 }
 
+/**
+ * retrieves the time to process the request.
+ */
 int request::getTime(){
     return time;
 }
 
 
-
+/**
+ * webServer constructor.
+ * creates a webServer that has a boolean set to false, and a int counter that is used to keep track of 
+ * the time left to finish processing the server's current request
+ */
 webServer::webServer()
 {
     busy = false;
@@ -60,12 +82,17 @@ webServer::~webServer()
 {
 }
 
-//assigns a process to the server and sets it's status to busy
+/**
+ * assigns a process to the server and sets it's status to busy.
+ */
 void webServer::setTime(unsigned int n){
     timeLeft = n;
     busy = true;
 }
-//decreases the time remaining before the sever is available to process another task
+
+/**
+ * decreases the time remaining before the sever is available to process another task.
+ */
 void webServer::decrementTime(){
     timeLeft = timeLeft - 1;
     if (timeLeft <= 0){
@@ -73,17 +100,9 @@ void webServer::decrementTime(){
     }
 }
 
-//add a request to the webserver's requestqueue
-// void webServer::addRequest(){
-    
-// }
-// void webServer::popRequest(){}
-
-// void webServer::printRequests(){
-    
-// }
-
-//constructor for loadBalancer
+/**
+ * constructor for loadBalancer. A private boolean to determine if there are any processes running is set to false upon instantiation.
+ */
 loadBalancer::loadBalancer(/* args */)
 {
     processesRunning = false;
@@ -93,14 +112,23 @@ loadBalancer::~loadBalancer()
 {
 }
 
+/**
+ * creates a server and adds it to the server list.
+ */
 void loadBalancer::addServer(){
     servers.push_back(webServer());
 }
 
-void loadBalancer::removeServer(){
+/**
+ * 
+ */
+// void loadBalancer::removeServer(){
 
-}
+// }
 
+/**
+ * instanciates the request queue and server list based on the size of respective parameters r and s
+ */
 void loadBalancer::startup(int r, int s){
     for(int i = 0; i < r; i++){
         this->addRequest();
@@ -108,9 +136,11 @@ void loadBalancer::startup(int r, int s){
     for(int i = 0; i < s; i++){
         this->addServer();
     }
-    
-    
 }
+
+/**
+ * Randomly generates a new request to place in the request queue
+ */
 void loadBalancer::simulator(){
     int random = rand() % 100;
     //19% chance of a new request each clock cycle
@@ -120,22 +150,34 @@ void loadBalancer::simulator(){
     }
     
 }
+
+/**
+ * creates a new request and adds it to the loadbalancer's request queue
+ */
 void loadBalancer::addRequest(){
     requestqueue.push(request());
 }
-void loadBalancer::popRequest(){}
-// void loadBalancer::startup(){
-//     for (int i = 0; i < n; i++){
-//         servers.push_back(webServer());
-//     }
-// }
 
-void loadBalancer::printServers(){
-    // for(int i = 0; i < servers.size(); i++){
-    //     cout<<servers.at(i).g
-    // }
+/**
+ * removes the front request from the request queue
+ */
+void loadBalancer::popRequest(){
+    requestqueue.pop();
 }
 
+
+// /**
+//  * 
+//  */
+// void loadBalancer::printServers(){
+//     // for(int i = 0; i < servers.size(); i++){
+//     //     cout<<servers.at(i).g
+//     // }
+// }
+
+/**
+ * prints the list of requests in the request queue
+ */
 void loadBalancer::printRequests(){
     for (size_t i = 0; i < requestqueue.size(); i++)
         {
@@ -145,6 +187,10 @@ void loadBalancer::printRequests(){
         }
 }
 
+/**
+ * runs the load balancer. Checks if any severs are avaible to process a request from the request queue.
+ * Accepts new requests. Prints output
+ */
 void loadBalancer::run(unsigned int n){
     unsigned int clock = 0;
     int activeServers = 0;
@@ -190,7 +236,7 @@ void loadBalancer::run(unsigned int n){
             reportPeriod = longestBusyPeriod;
         }
         
-        cout<<"requestqueue size "<< requestqueue.size()<<endl;
+        // cout<<"requestqueue size "<< requestqueue.size()<<endl;
         simulator();
         clock++;
     }
