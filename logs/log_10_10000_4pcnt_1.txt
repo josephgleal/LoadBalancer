@@ -1,0 +1,128 @@
+server number?
+max number of clock cycles?
+starting request queue size 20
+every clock cycle there is a 4 percent chance of a request being added so approximately 1 request every 25 seconds.
+every request has a processing time between 1 and 500
+
+request 216.246.213.253 assigned to 219.170.246.158
+request 214.200.212.232 assigned to 184.241.158.219
+request 214.247.177.254 assigned to 222.225.189.246
+request 206.182.227.226 assigned to 170.218.161.195
+request 223.174.247.172 assigned to 168.189.214.215
+request 202.228.194.209 assigned to 235.179.171.168
+request 220.231.199.244 assigned to 214.236.173.227
+request 233.188.180.222 assigned to 202.211.206.155
+request 213.157.205.250 assigned to 197.202.248.159
+request 163.186.247.179 assigned to 206.244.170.224
+request 214.253.175.196 assigned to 228.204.222.206
+request added
+request added
+request added
+request added
+request 175.159.206.221 assigned to 244.198.163.221
+request 179.198.235.237 assigned to 178.231.189.201
+request 218.178.181.193 assigned to 220.182.236.199
+request added
+request added
+request added
+request added
+request 195.178.219.248 assigned to 192.182.201.225
+request 171.182.169.236 assigned to 230.218.239.191
+request added
+request 179.233.176.207 assigned to 224.193.155.184
+request 236.192.166.218 assigned to 167.162.170.239
+request 188.162.181.163 assigned to 218.199.177.249
+request added
+request added
+request 239.249.202.193 assigned to 202.231.240.195
+request 192.203.228.238 assigned to 198.231.228.229
+request 237.218.167.173 assigned to 160.218.158.209
+request 248.237.242.182 assigned to 186.229.186.235
+request added
+request 244.170.248.227 assigned to 165.171.254.233
+request added
+request added
+request 230.198.197.180 assigned to 206.177.210.188
+request 174.222.190.156 assigned to 168.189.230.171
+request added
+request added
+request added
+request added
+request added
+request 225.201.177.192 assigned to 176.210.227.155
+request added
+request added
+request added
+request 242.218.163.237 assigned to 214.185.166.245
+request 213.240.240.244 assigned to 155.250.192.220
+request added
+request 170.212.235.246 assigned to 189.180.206.218
+request 227.242.162.203 assigned to 201.216.249.217
+request added
+request 251.223.248.184 assigned to 199.239.169.165
+request 227.250.158.203 assigned to 194.213.205.193
+request added
+request added
+request 191.216.167.245 assigned to 241.251.200.178
+request 226.182.161.166 assigned to 172.171.157.172
+request 254.224.162.239 assigned to 196.164.196.210
+request added
+request added
+request 189.211.190.227 assigned to 239.190.179.245
+request added
+request added
+request added
+request 170.238.201.195 assigned to 198.217.207.187
+request added
+request added
+request added
+request 213.252.244.187 assigned to 250.229.248.200
+request 201.160.229.239 assigned to 208.205.214.221
+request 170.221.252.229 assigned to 162.251.252.233
+request added
+request 163.248.240.176 assigned to 194.248.220.196
+request added
+request added
+request added
+request 217.180.172.174 assigned to 179.228.228.221
+request 234.201.175.180 assigned to 221.182.160.158
+request added
+request 239.195.159.158 assigned to 215.190.206.187
+request 196.237.162.205 assigned to 203.220.167.162
+request 155.173.155.185 assigned to 170.172.203.205
+request added
+request added
+request 191.174.157.207 assigned to 222.171.237.166
+request added
+request 210.214.185.247 assigned to 178.229.222.221
+request added
+request 245.188.215.217 assigned to 211.178.176.191
+request 159.166.229.184 assigned to 168.188.249.232
+request 179.198.231.242 assigned to 241.192.226.170
+request added
+request added
+request 194.235.216.168 assigned to 242.166.235.203
+request 223.185.160.178 assigned to 200.241.211.212
+request 219.241.159.156 assigned to 156.187.240.157
+request 187.225.244.218 assigned to 174.223.175.161
+request 184.221.164.253 assigned to 190.213.236.170
+request 201.178.170.194 assigned to 157.210.225.230
+request 229.185.197.218 assigned to 252.217.159.242
+request 221.208.197.231 assigned to 218.208.157.201
+request 172.159.204.215 assigned to 170.203.195.181
+request 210.223.208.235 assigned to 235.211.156.234
+request added
+request 229.249.204.203 assigned to 216.160.211.209
+request 216.205.160.234 assigned to 242.187.208.165
+request added
+request 242.206.231.188 assigned to 235.155.241.174
+request added
+request 239.234.164.163 assigned to 209.220.213.247
+request 225.159.184.186 assigned to 230.186.241.253
+request added
+request 209.215.247.224 assigned to 192.224.250.206
+request 160.219.242.170 assigned to 230.247.159.236
+
+queue empty
+clock cycles 1354
+longest busy period (all servers are busy): 73

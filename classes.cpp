@@ -198,6 +198,10 @@ void loadBalancer::run(unsigned int n){
     int longestBusyPeriod = 0;
     int reportPeriod = 0;
     //while the request queue has requests, or there are servers processing requests
+    cout<<"starting request queue size "<<requestqueue.size()<<endl;
+    cout<<"every clock cycle there is a 4 percent chance of a request being added so approximately 1 request every 25 seconds."<<endl;
+    cout<<"every request has a processing time between 1 and 500"<<endl<<endl;
+
     while(!requestqueue.empty() || activeServers > 0){
         if(clock >= n){
             break;
@@ -249,7 +253,7 @@ void loadBalancer::run(unsigned int n){
     else if(clock >= n){
         cout << "max clock cycles reached at " << n << endl;
         cout<<"longest busy period (all servers are busy): " << reportPeriod << endl;
-        cout<<"requestqueue size "<< requestqueue.size()<<endl;
+        cout<<"ending requestqueue size "<< requestqueue.size()<<endl;
     }
     
 }
