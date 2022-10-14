@@ -143,7 +143,7 @@ void loadBalancer::startup(int r, int s){
  */
 void loadBalancer::simulator(){
     int random = rand() % 100;
-    //19% chance of a new request each clock cycle
+    //4% chance of a new request each clock cycle
     if(random > 95 && requestqueue.size() > 0){
         requestqueue.push(request());
         cout<<"request added"<<endl;
@@ -249,6 +249,7 @@ void loadBalancer::run(unsigned int n){
     else if(clock >= n){
         cout << "max clock cycles reached at " << n << endl;
         cout<<"longest busy period (all servers are busy): " << reportPeriod << endl;
+        cout<<"requestqueue size "<< requestqueue.size()<<endl;
     }
     
 }

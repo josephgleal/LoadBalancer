@@ -1,0 +1,848 @@
+server number?
+max number of clock cycles?
+request 212.167.224.225 assigned to 248.222.191.210
+request 249.156.199.187 assigned to 216.203.205.201
+request 223.178.165.217 assigned to 219.177.203.217
+request 247.193.231.168 assigned to 204.214.233.218
+request 170.160.226.168 assigned to 234.186.248.158
+request 233.200.164.250 assigned to 188.239.236.203
+request 203.215.164.206 assigned to 217.249.195.231
+request 187.201.180.211 assigned to 168.253.242.206
+request 184.182.203.219 assigned to 213.198.240.170
+request 168.238.247.243 assigned to 185.190.235.225
+request added
+request 237.180.177.183 assigned to 248.180.248.191
+request 223.235.234.164 assigned to 245.238.206.211
+request added
+request added
+request 171.208.192.249 assigned to 176.176.170.218
+request added
+request added
+request added
+request 180.205.219.225 assigned to 240.175.194.244
+request 230.253.244.225 assigned to 222.155.159.178
+request added
+request added
+request 230.187.241.233 assigned to 247.191.232.170
+request added
+request 177.193.156.212 assigned to 179.186.180.211
+request 206.186.210.224 assigned to 184.177.166.189
+request 217.195.237.204 assigned to 157.182.163.226
+request 193.159.248.202 assigned to 236.167.196.171
+request 208.206.217.168 assigned to 196.201.161.235
+request added
+request 195.216.215.221 assigned to 205.241.168.218
+request added
+request 177.234.171.248 assigned to 199.177.243.170
+request added
+request 156.174.180.227 assigned to 158.172.240.245
+request 172.232.227.249 assigned to 200.228.186.218
+request added
+request 254.184.216.244 assigned to 210.203.217.248
+request 235.227.160.155 assigned to 199.174.221.170
+request added
+request added
+request 180.200.165.213 assigned to 204.185.202.231
+request added
+request 220.237.156.187 assigned to 211.232.155.180
+request added
+request added
+request added
+request added
+request added
+request 165.192.160.156 assigned to 176.236.225.228
+request added
+request added
+request added
+request added
+request 159.248.243.186 assigned to 254.184.205.250
+request added
+request 187.206.227.182 assigned to 206.229.239.184
+request added
+request 180.187.241.164 assigned to 250.235.230.180
+request added
+request added
+request 197.185.238.249 assigned to 181.160.242.156
+request 172.254.249.245 assigned to 184.186.230.188
+request added
+request 236.209.228.245 assigned to 187.170.226.186
+request added
+request 247.216.216.247 assigned to 180.231.254.173
+request added
+request 191.203.171.192 assigned to 202.226.185.249
+request added
+request 199.194.234.191 assigned to 186.249.190.247
+request added
+request added
+request 218.203.160.167 assigned to 161.242.204.244
+request added
+request 239.209.167.211 assigned to 219.169.198.182
+request added
+request 227.230.205.186 assigned to 184.186.197.170
+request added
+request 232.211.172.181 assigned to 175.188.244.190
+request 159.159.198.221 assigned to 194.240.248.252
+request added
+request added
+request 223.226.157.230 assigned to 215.210.170.186
+request added
+request 212.168.209.244 assigned to 188.180.166.205
+request 179.163.201.165 assigned to 198.155.155.239
+request added
+request added
+request added
+request added
+request 254.191.225.237 assigned to 238.215.172.203
+request added
+request 166.189.207.179 assigned to 199.174.241.246
+request 167.171.200.175 assigned to 210.198.159.188
+request added
+request added
+request 182.173.186.159 assigned to 242.202.216.192
+request added
+request added
+request added
+request 194.198.205.167 assigned to 240.180.252.203
+request added
+request added
+request 205.206.188.164 assigned to 213.177.221.252
+request 225.224.214.249 assigned to 241.214.198.202
+request 211.236.202.169 assigned to 161.166.177.182
+request added
+request added
+request 247.226.180.197 assigned to 232.185.155.206
+request added
+request 210.233.186.185 assigned to 228.236.245.241
+request 161.244.166.167 assigned to 196.178.185.167
+request added
+request added
+request added
+request 187.176.209.223 assigned to 200.243.163.210
+request added
+request added
+request 214.234.229.225 assigned to 200.177.224.245
+request added
+request 164.176.175.213 assigned to 216.247.198.161
+request added
+request added
+request 159.175.233.245 assigned to 199.226.236.254
+request 217.213.248.158 assigned to 199.239.191.216
+request 249.160.195.252 assigned to 247.213.162.159
+request 249.209.159.217 assigned to 159.214.156.241
+request 167.187.232.251 assigned to 202.203.204.233
+request added
+request 158.198.161.182 assigned to 246.235.232.175
+request added
+request added
+request added
+request 230.222.219.212 assigned to 171.194.159.218
+request added
+request 206.201.198.161 assigned to 242.220.212.251
+request added
+request added
+request 206.183.201.186 assigned to 164.239.244.233
+request 167.164.237.175 assigned to 236.236.220.227
+request 238.209.239.159 assigned to 247.188.212.180
+request 236.177.217.192 assigned to 193.239.218.172
+request added
+request added
+request 196.242.224.250 assigned to 229.225.253.184
+request added
+request added
+request added
+request added
+request added
+request added
+request added
+request added
+request 240.161.231.206 assigned to 196.233.188.157
+request 160.252.211.198 assigned to 213.159.204.188
+request 249.198.248.173 assigned to 254.199.171.192
+request 221.240.202.210 assigned to 224.247.185.231
+request added
+request added
+request added
+request 204.168.245.164 assigned to 171.252.203.162
+request added
+request 242.195.168.171 assigned to 233.182.165.229
+request added
+request added
+request 195.222.209.208 assigned to 201.158.169.186
+request 240.196.164.201 assigned to 168.219.193.170
+request added
+request 216.216.235.187 assigned to 240.240.245.218
+request added
+request 223.227.160.167 assigned to 189.183.187.179
+request 165.182.167.249 assigned to 170.238.175.192
+request added
+request added
+request 219.191.240.240 assigned to 244.216.180.206
+request added
+request 157.166.204.164 assigned to 211.252.196.182
+request 221.234.175.213 assigned to 249.224.167.210
+request added
+request added
+request 241.189.190.240 assigned to 216.164.245.173
+request added
+request added
+request 209.221.159.224 assigned to 159.186.164.188
+request 211.230.230.180 assigned to 237.223.195.201
+request 161.235.211.209 assigned to 158.239.238.221
+request 193.176.192.208 assigned to 237.159.251.173
+request added
+request added
+request 204.169.181.220 assigned to 220.171.203.155
+request 247.171.205.160 assigned to 190.199.163.245
+request added
+request added
+request 180.238.232.243 assigned to 250.160.164.211
+request added
+request added
+request 253.193.172.186 assigned to 217.170.202.241
+request added
+request added
+request 245.227.223.193 assigned to 232.170.200.200
+request added
+request 160.213.204.190 assigned to 180.157.185.220
+request 249.243.189.235 assigned to 215.206.224.191
+request 188.229.249.226 assigned to 253.244.157.226
+request added
+request 194.166.212.192 assigned to 250.183.248.247
+request added
+request 251.249.203.167 assigned to 251.211.201.158
+request 226.205.203.218 assigned to 197.237.201.212
+request added
+request 174.236.208.191 assigned to 202.243.228.204
+request 213.246.201.252 assigned to 171.176.243.186
+request 239.217.200.225 assigned to 210.187.190.217
+request added
+request added
+request 235.192.208.202 assigned to 175.172.196.176
+request 170.186.192.207 assigned to 206.176.213.166
+request 222.204.168.186 assigned to 250.195.221.170
+request added
+request 242.222.176.249 assigned to 229.179.207.162
+request added
+request added
+request added
+request 203.193.226.205 assigned to 176.251.220.170
+request added
+request added
+request added
+request 195.174.208.242 assigned to 200.251.186.203
+request added
+request 215.244.253.225 assigned to 221.202.184.242
+request added
+request 237.163.230.205 assigned to 167.161.157.233
+request 182.196.194.236 assigned to 189.201.198.166
+request added
+request added
+request added
+request added
+request 235.240.227.175 assigned to 195.161.171.176
+request 239.236.220.168 assigned to 195.207.199.159
+request added
+request 195.237.176.216 assigned to 225.193.197.170
+request 230.200.221.200 assigned to 180.254.166.198
+request added
+request 165.201.173.222 assigned to 206.170.223.195
+request added
+request 193.190.197.192 assigned to 215.229.167.188
+request added
+request added
+request added
+request 197.232.209.177 assigned to 213.215.212.204
+request 254.215.215.204 assigned to 178.180.156.192
+request 247.222.217.176 assigned to 234.178.241.200
+request added
+request 196.205.243.165 assigned to 235.180.204.187
+request added
+request 202.243.214.189 assigned to 182.216.178.222
+request 199.240.222.160 assigned to 169.209.228.200
+request added
+request 174.163.177.159 assigned to 162.227.183.198
+request 158.175.217.232 assigned to 238.210.193.204
+request 203.241.221.251 assigned to 170.192.159.208
+request added
+request added
+request added
+request 246.170.169.171 assigned to 253.235.203.161
+request added
+request added
+request added
+request added
+request 236.176.229.162 assigned to 177.239.172.219
+request 189.167.241.204 assigned to 245.234.236.171
+request added
+request added
+request added
+request added
+request 169.249.194.243 assigned to 175.186.227.165
+request added
+request 210.254.231.161 assigned to 247.232.241.224
+request 176.247.232.190 assigned to 236.245.190.202
+request added
+request 204.227.163.184 assigned to 165.201.241.204
+request added
+request 187.224.234.217 assigned to 233.212.208.219
+request added
+request added
+request 229.172.204.203 assigned to 230.170.181.239
+request added
+request 168.234.187.181 assigned to 238.161.195.189
+request added
+request added
+request 254.231.214.252 assigned to 161.177.159.248
+request 156.193.246.215 assigned to 250.184.229.185
+request 229.202.179.165 assigned to 215.223.183.170
+request 218.181.217.225 assigned to 190.212.250.228
+request 206.212.194.206 assigned to 164.215.200.156
+request 169.176.246.188 assigned to 235.226.178.188
+request 213.249.167.215 assigned to 175.184.215.235
+request 163.213.171.216 assigned to 155.205.203.155
+request 242.156.213.166 assigned to 244.190.200.235
+request 232.184.246.192 assigned to 195.228.244.250
+request added
+request 160.166.180.249 assigned to 172.200.218.240
+request added
+request 247.220.156.201 assigned to 231.179.198.202
+request 166.207.179.173 assigned to 226.231.166.191
+request 210.196.197.170 assigned to 247.208.245.169
+request added
+request 234.232.189.198 assigned to 209.250.161.239
+request 188.185.227.166 assigned to 254.174.175.195
+request added
+request added
+request 181.188.180.231 assigned to 189.187.240.174
+request added
+request added
+request 182.181.156.253 assigned to 217.186.191.207
+request 225.176.204.220 assigned to 221.192.243.202
+request 245.247.189.235 assigned to 244.231.156.228
+request 223.228.155.157 assigned to 184.166.208.161
+request added
+request added
+request 218.251.242.200 assigned to 221.168.230.243
+request added
+request 225.232.166.245 assigned to 161.175.206.189
+request 204.245.215.174 assigned to 199.236.208.158
+request added
+request 185.182.181.189 assigned to 194.213.162.185
+request 246.213.158.248 assigned to 232.155.193.192
+request added
+request added
+request 252.240.213.160 assigned to 224.233.243.197
+request 176.165.241.155 assigned to 197.181.183.211
+request added
+request 166.242.192.179 assigned to 209.160.171.168
+request added
+request added
+request added
+request 192.159.232.164 assigned to 189.252.173.180
+request added
+request added
+request 232.166.207.242 assigned to 188.235.156.198
+request added
+request 181.240.242.193 assigned to 250.248.244.208
+request added
+request 172.232.187.246 assigned to 158.185.248.157
+request added
+request added
+request 205.214.227.162 assigned to 196.188.227.253
+request 248.188.173.200 assigned to 211.218.243.189
+request added
+request added
+request added
+request added
+request added
+request 220.194.180.198 assigned to 185.222.180.190
+request 242.254.222.195 assigned to 186.198.157.247
+request 221.157.254.238 assigned to 162.167.169.199
+request 247.253.242.169 assigned to 221.216.251.252
+request added
+request 225.193.209.246 assigned to 204.239.250.217
+request added
+request added
+request 176.230.159.178 assigned to 219.174.244.181
+request added
+request added
+request 233.241.221.189 assigned to 241.203.156.250
+request 182.184.234.237 assigned to 254.226.217.241
+request 221.218.191.175 assigned to 194.205.245.167
+request added
+request added
+request added
+request 164.195.228.201 assigned to 185.232.166.228
+request added
+request 239.175.189.171 assigned to 189.210.242.227
+request 242.228.195.170 assigned to 156.250.196.203
+request added
+request added
+request 173.191.215.252 assigned to 172.184.222.209
+request added
+request 198.230.247.215 assigned to 187.254.228.197
+request 251.241.176.217 assigned to 225.230.248.243
+request added
+request added
+request added
+request 175.204.176.216 assigned to 220.155.212.189
+request added
+request 188.222.185.201 assigned to 172.162.204.225
+request 250.224.160.249 assigned to 156.196.182.202
+request 188.161.220.162 assigned to 224.221.228.243
+request 249.210.223.203 assigned to 252.179.239.195
+request added
+request added
+request 183.206.230.242 assigned to 186.219.180.190
+request added
+request 207.228.177.182 assigned to 222.248.204.214
+request added
+request added
+request 225.171.198.202 assigned to 203.191.185.215
+request 156.232.211.172 assigned to 249.160.168.187
+request added
+request added
+request added
+request 164.171.231.254 assigned to 232.213.215.155
+request added
+request 238.184.224.168 assigned to 161.252.173.243
+request 188.195.158.207 assigned to 251.208.220.193
+request added
+request added
+request added
+request 161.218.201.231 assigned to 237.167.212.211
+request 179.244.181.224 assigned to 169.187.215.205
+request 209.211.207.199 assigned to 192.155.201.226
+request added
+request added
+request added
+request 184.186.214.179 assigned to 204.167.189.246
+request 231.171.174.237 assigned to 173.203.179.163
+request 175.242.240.226 assigned to 201.190.173.179
+request added
+request added
+request added
+request 174.214.208.219 assigned to 223.228.207.207
+request added
+request 182.172.201.246 assigned to 220.222.201.253
+request 179.160.229.241 assigned to 164.211.185.198
+request added
+request 190.160.253.158 assigned to 202.171.240.195
+request 183.246.205.190 assigned to 230.228.190.164
+request added
+request 215.165.237.212 assigned to 209.155.238.175
+request added
+request added
+request added
+request added
+request added
+request added
+request added
+request added
+request 243.237.156.238 assigned to 238.209.157.254
+request added
+request added
+request 155.188.233.210 assigned to 247.219.163.242
+request 225.208.245.190 assigned to 247.189.254.176
+request added
+request added
+request 211.217.173.161 assigned to 218.236.241.246
+request 249.179.204.174 assigned to 210.248.227.179
+request 202.201.169.213 assigned to 238.216.237.157
+request 180.204.239.221 assigned to 164.210.172.161
+request added
+request added
+request 253.180.219.162 assigned to 240.192.189.254
+request added
+request 204.190.170.195 assigned to 164.239.177.252
+request added
+request 180.222.246.230 assigned to 204.234.166.250
+request 184.223.245.188 assigned to 222.212.166.166
+request added
+request 195.235.230.216 assigned to 184.172.240.204
+request added
+request added
+request 218.239.181.157 assigned to 245.240.223.223
+request 224.167.159.169 assigned to 166.250.205.205
+request 194.164.239.222 assigned to 219.231.178.229
+request added
+request added
+request 245.235.189.192 assigned to 246.162.185.171
+request 210.247.230.164 assigned to 236.207.199.230
+request added
+request 242.252.229.198 assigned to 199.171.189.174
+request added
+request added
+request added
+request 228.188.162.197 assigned to 170.164.190.184
+request added
+request added
+request added
+request 223.174.230.241 assigned to 186.202.186.254
+request 160.249.166.234 assigned to 249.245.181.186
+request 238.163.229.188 assigned to 207.252.213.226
+request added
+request added
+request 227.206.192.234 assigned to 157.246.177.192
+request 251.235.165.233 assigned to 225.228.250.226
+request 226.165.217.253 assigned to 226.204.235.194
+request added
+request added
+request added
+request 196.225.239.222 assigned to 205.215.163.251
+request 195.177.182.180 assigned to 217.185.252.191
+request added
+request added
+request 196.184.192.184 assigned to 222.179.186.172
+request added
+request added
+request 164.198.209.202 assigned to 209.248.187.210
+request added
+request 170.216.201.230 assigned to 169.169.217.157
+request added
+request added
+request 208.217.244.247 assigned to 241.192.215.237
+request 241.181.230.213 assigned to 184.224.203.155
+request 204.200.195.232 assigned to 218.228.231.168
+request added
+request 172.197.240.179 assigned to 170.155.204.172
+request 233.238.214.159 assigned to 185.250.242.170
+request 211.164.243.201 assigned to 181.201.238.234
+request added
+request 209.167.200.186 assigned to 247.184.187.165
+request 203.231.182.241 assigned to 221.204.173.250
+request added
+request added
+request 205.218.201.176 assigned to 172.236.174.228
+request 179.221.232.176 assigned to 236.170.205.223
+request 178.196.161.233 assigned to 204.190.235.230
+request added
+request added
+request added
+request added
+request added
+request 188.228.178.168 assigned to 196.161.233.202
+request added
+request 159.180.222.208 assigned to 248.181.193.211
+request 185.230.184.223 assigned to 241.238.174.210
+request added
+request 189.213.216.192 assigned to 242.254.224.203
+request added
+request 222.235.249.223 assigned to 218.194.220.182
+request added
+request added
+request 212.195.218.189 assigned to 201.197.213.254
+request added
+request added
+request added
+request 185.185.212.198 assigned to 243.171.189.167
+request 205.230.204.156 assigned to 198.226.229.178
+request added
+request 241.223.164.237 assigned to 161.245.250.166
+request added
+request added
+request 197.175.195.222 assigned to 155.216.245.226
+request 196.157.173.199 assigned to 241.238.159.201
+request added
+request added
+request 238.157.247.230 assigned to 198.185.225.228
+request 218.186.230.197 assigned to 161.239.184.231
+request added
+request 186.155.203.164 assigned to 217.163.168.158
+request 199.183.208.250 assigned to 191.182.175.167
+request added
+request 185.241.217.166 assigned to 188.170.164.213
+request 227.216.158.195 assigned to 239.186.242.245
+request added
+request added
+request added
+request 194.208.245.248 assigned to 175.160.169.221
+request added
+request 183.188.199.168 assigned to 254.186.227.211
+request 213.202.200.196 assigned to 223.203.253.238
+request added
+request added
+request added
+request 158.163.252.155 assigned to 212.193.179.176
+request 237.208.200.251 assigned to 195.160.176.173
+request added
+request 166.217.188.214 assigned to 230.199.182.187
+request 247.232.183.173 assigned to 190.254.206.156
+request added
+request added
+request 205.171.250.155 assigned to 226.248.251.156
+request added
+request 180.237.214.191 assigned to 237.244.233.231
+request added
+request added
+request added
+request 254.252.225.205 assigned to 233.194.203.184
+request added
+request added
+request 215.211.170.170 assigned to 176.210.212.163
+request added
+request 204.162.190.183 assigned to 184.198.232.251
+request added
+request 191.231.189.205 assigned to 243.185.248.224
+request 183.171.231.230 assigned to 229.218.224.248
+request 188.162.206.176 assigned to 197.237.246.247
+request 224.237.238.216 assigned to 244.157.156.166
+request added
+request added
+request added
+request 194.249.187.236 assigned to 203.225.169.202
+request added
+request added
+request 174.156.198.206 assigned to 163.173.165.236
+request added
+request 222.187.227.216 assigned to 250.228.163.170
+request 248.215.243.245 assigned to 157.170.164.213
+request added
+request 204.226.185.254 assigned to 166.216.214.177
+request added
+request added
+request added
+request 214.194.229.243 assigned to 196.244.239.210
+request added
+request 166.177.247.159 assigned to 175.163.187.180
+request added
+request 254.213.184.197 assigned to 241.213.169.183
+request 177.217.224.206 assigned to 188.188.198.238
+request 193.218.201.194 assigned to 233.244.229.212
+request 210.217.245.201 assigned to 237.203.233.236
+request 225.225.196.185 assigned to 164.175.173.174
+request 245.206.189.235 assigned to 199.252.237.156
+request 249.169.230.183 assigned to 184.190.243.232
+request added
+request added
+request added
+request added
+request 240.228.164.229 assigned to 205.251.182.248
+request 248.179.245.248 assigned to 200.220.208.232
+request added
+request 185.175.176.195 assigned to 239.250.245.234
+request added
+request 172.194.215.251 assigned to 232.226.243.194
+request 197.157.236.210 assigned to 227.228.196.244
+request 197.254.198.253 assigned to 206.206.183.201
+request added
+request added
+request added
+request 190.193.173.205 assigned to 173.242.189.193
+request 169.221.235.221 assigned to 220.200.216.219
+request 160.214.247.168 assigned to 189.172.165.233
+request added
+request added
+request 208.181.206.215 assigned to 248.196.164.254
+request 214.190.171.234 assigned to 158.253.174.156
+request 196.160.207.244 assigned to 203.249.173.252
+request added
+request added
+request added
+request 223.166.186.252 assigned to 211.192.184.229
+request 223.164.212.237 assigned to 181.213.215.182
+request added
+request 191.156.168.180 assigned to 236.156.185.248
+request 157.252.234.196 assigned to 178.164.175.165
+request added
+request 247.241.197.232 assigned to 237.209.225.192
+request 186.167.184.165 assigned to 174.160.207.214
+request added
+request 221.164.214.171 assigned to 212.238.187.189
+request added
+request added
+request added
+request 186.194.220.216 assigned to 224.183.208.225
+request added
+request 211.179.223.229 assigned to 235.246.157.194
+request added
+request 232.155.244.222 assigned to 196.236.200.156
+request added
+request added
+request 241.223.163.215 assigned to 213.199.250.223
+request added
+request 208.188.236.234 assigned to 191.242.193.218
+request added
+request added
+request 167.246.174.162 assigned to 240.166.217.212
+request 243.203.182.183 assigned to 201.250.232.198
+request added
+request added
+request 242.164.243.188 assigned to 214.159.249.186
+request added
+request added
+request 227.172.198.247 assigned to 189.226.155.226
+request 250.185.236.158 assigned to 194.195.252.240
+request 173.250.165.203 assigned to 238.210.215.205
+request 168.162.240.198 assigned to 226.163.217.226
+request 213.185.186.228 assigned to 236.165.213.212
+request 177.196.239.158 assigned to 198.158.196.176
+request added
+request added
+request 238.237.238.155 assigned to 183.186.216.249
+request added
+request added
+request 167.190.229.209 assigned to 222.230.186.177
+request 210.189.191.190 assigned to 209.252.204.186
+request 170.219.229.245 assigned to 246.166.247.167
+request added
+request added
+request 160.253.242.190 assigned to 219.252.198.187
+request 226.244.193.203 assigned to 176.238.194.165
+request added
+request added
+request 171.239.184.249 assigned to 239.217.193.194
+request added
+request 200.204.246.190 assigned to 253.217.218.205
+request 245.182.155.157 assigned to 157.178.233.231
+request added
+request 230.168.184.188 assigned to 199.178.157.169
+request added
+request 224.162.180.202 assigned to 164.187.209.195
+request added
+request added
+request 207.212.221.158 assigned to 161.225.173.176
+request 185.159.190.194 assigned to 171.217.228.226
+request 203.168.174.181 assigned to 243.224.213.241
+request 190.210.249.156 assigned to 234.250.187.254
+request 160.210.180.202 assigned to 211.223.180.175
+request 250.240.241.189 assigned to 235.251.247.215
+request 156.201.201.248 assigned to 198.190.239.248
+request added
+request added
+request 248.228.155.227 assigned to 236.182.227.200
+request 240.237.167.223 assigned to 189.165.171.236
+request 235.214.244.185 assigned to 227.224.230.169
+request added
+request 212.190.187.240 assigned to 224.252.234.158
+request 242.202.172.232 assigned to 168.191.239.225
+request 183.209.174.159 assigned to 210.244.245.195
+request added
+request added
+request 204.236.231.212 assigned to 251.182.246.229
+request added
+request 211.234.159.193 assigned to 185.187.223.205
+request added
+request 187.164.240.161 assigned to 156.200.187.205
+request added
+request added
+request added
+request 189.155.167.169 assigned to 157.204.187.253
+request 184.222.232.220 assigned to 215.204.213.252
+request 156.190.184.183 assigned to 197.229.232.242
+request added
+request 165.162.170.161 assigned to 165.217.247.182
+request added
+request added
+request 178.175.163.189 assigned to 162.156.209.205
+request added
+request added
+request added
+request 210.201.199.198 assigned to 234.156.158.224
+request added
+request 174.176.169.224 assigned to 254.236.164.236
+request 184.174.227.180 assigned to 157.210.202.164
+request 193.209.232.171 assigned to 201.167.179.157
+request added
+request added
+request 232.168.210.166 assigned to 248.179.215.246
+request 182.224.166.222 assigned to 222.177.217.202
+request 235.241.248.165 assigned to 226.229.167.197
+request added
+request added
+request 170.177.191.181 assigned to 237.167.246.179
+request added
+request added
+request 188.164.232.233 assigned to 209.159.210.175
+request 222.220.171.206 assigned to 223.156.191.163
+request added
+request 184.254.242.191 assigned to 164.166.190.164
+request 252.155.242.204 assigned to 156.226.188.185
+request 250.180.234.210 assigned to 155.170.162.192
+request 203.210.178.172 assigned to 223.231.237.230
+request added
+request added
+request added
+request added
+request added
+request added
+request added
+request 162.161.188.184 assigned to 212.197.216.247
+request 157.180.178.227 assigned to 187.192.223.180
+request 208.188.197.203 assigned to 226.193.253.219
+request added
+request 203.185.222.243 assigned to 183.196.229.175
+request added
+request 158.225.179.165 assigned to 224.164.165.242
+request 211.242.233.212 assigned to 249.177.188.244
+request added
+request 180.176.172.208 assigned to 211.178.231.188
+request added
+request 189.159.246.228 assigned to 159.248.227.230
+request 216.240.252.254 assigned to 251.230.166.222
+request added
+request added
+request 213.159.236.252 assigned to 160.252.171.160
+request added
+request 216.225.192.193 assigned to 159.171.217.222
+request added
+request 209.252.254.155 assigned to 197.204.199.155
+request added
+request added
+request 184.161.187.188 assigned to 197.196.228.182
+request added
+request 178.217.180.239 assigned to 252.170.252.161
+request 252.172.192.249 assigned to 218.211.193.239
+request 216.220.157.202 assigned to 239.221.179.198
+request added
+request 202.168.204.193 assigned to 225.228.171.222
+request 180.241.228.170 assigned to 224.194.156.254
+request added
+request added
+request 235.209.180.203 assigned to 220.194.249.254
+request added
+request added
+request 225.165.185.188 assigned to 243.248.234.221
+request 242.247.254.155 assigned to 155.230.254.197
+request added
+request added
+request added
+request added
+request 180.254.197.197 assigned to 174.170.244.159
+request 223.199.203.174 assigned to 169.206.209.162
+request added
+request added
+request 229.219.171.210 assigned to 222.168.175.216
+request 218.155.226.248 assigned to 158.195.179.176
+request added
+request 219.211.198.193 assigned to 216.156.195.156
+request added
+request 173.217.233.174 assigned to 187.246.228.181
+request 185.244.188.245 assigned to 247.210.195.230
+request 210.190.186.232 assigned to 170.247.171.191
+request added
+request 200.194.194.178 assigned to 190.225.229.249
+request 167.227.254.186 assigned to 234.162.230.163
+request added
+request 207.169.192.211 assigned to 214.187.217.238
+request 252.231.238.203 assigned to 239.196.201.240
+request 173.185.178.194 assigned to 189.159.171.207
+request 214.242.157.254 assigned to 188.194.218.235
+request added
+request added
+request added
+request 171.160.230.228 assigned to 159.210.228.230
+request 214.225.249.243 assigned to 206.237.169.174
+request 224.175.253.243 assigned to 166.198.219.225
+request 168.167.220.226 assigned to 230.203.204.221
+request added
+request added
+request 171.184.220.158 assigned to 237.170.205.164
+request added
+request added
+request 240.172.160.222 assigned to 215.233.194.158
+request 182.201.198.166 assigned to 218.246.231.240
+
+max clock cycles reached at 10000
+longest busy period (all servers are busy): 126
+requestqueue size 14
